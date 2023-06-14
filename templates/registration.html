@@ -1,0 +1,72 @@
+{% extends 'dummy.html' %}
+{% load static %}
+
+
+{% block title %}
+<title>Registration </title>
+{% endblock %}
+<link rel="stylesheet" href="{% static 'css/c1.css' %}">
+
+{% block body_block %}
+<center>
+    <form>
+		<fieldset>
+		<legend>Registration Details</legend>
+	<table class="one">
+		
+		<tr>
+			<td><label>University:</label></td>
+			<td><input type="text"></td>
+		</tr>
+			<tr>
+			<td><label>Institute:</label></td>
+			<td><input type="text"></td>
+		</tr>
+	
+		
+		<tr>
+			<td><lable>Branch:</lable></td>
+			<td>
+				<select>
+				<option value="">select a option</option>
+				<option value="me">ME</option>
+				<option value="css">CSS</option>
+				<option value="ece">ECE</option>
+				<option value="eee">EEE</option>
+				<option value="civil">Civil</option>
+
+			</select> 
+			<input type="radio" value="completed "/>Pursuing</input>
+			<input type="radio"  value="Completed"/>Completed</input>
+		    </td>
+		</tr>
+	
+		<tr>
+			<td><lable>Avarage CPI:</lable></td>
+
+			<td><input  type="text">
+
+			<lable> Upto </lable>
+
+			<input  type="TEXT">The Semester
+
+			</td>
+
+		</tr>
+	
+		<tr>
+			<td><lable>Experience:</lable></td>
+			<td><input  type="text">Years</td>
+		</tr>
+	
+		<tr>
+			<td><lable>Your Website or Blog:</lable></td>
+			<td><input type="url"></td>
+		</tr>
+
+
+	</table>
+</fieldset>
+</form>
+</center>
+{% endblock %}

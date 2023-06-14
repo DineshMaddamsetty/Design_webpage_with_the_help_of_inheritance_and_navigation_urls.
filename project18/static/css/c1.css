@@ -1,0 +1,31 @@
+body{
+    background-color: greenyellow;
+}
+.one{
+    font-family:!important ;
+
+    
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-left: 500px;
+}
+.two{
+    padding: 10px;
+    font-family: !important;
+    font-size: 30px;
+    
+}
+.three{
+    padding: 5px;
+    font-family: !important;
+    font-size: 30px;
+    
+}
+.a{
+    text-align: center ;
+}
